@@ -1,0 +1,46 @@
+When started
+Forever
+  If variable 600 #(search state)# = 1
+    Set variable 601 #(current search read)# to 1
+    Set variable 600 to 2 #(on)#
+    set variable 604 to 0
+  If variable 600 = 2
+    If manual variable variable 601 = new line
+      Set variable 601 to variable 601 + 1
+      If manual variable variable 601 = r
+        Set variable 601 to variable 601 + 1
+            If manual variable variable 601 = f
+              Set variable 601 to variable 601 + 1
+              If manual variable variable 601 = s
+                #find file information areas
+                Set variable 605 #(start of current item name)# to variable 601 + 2
+                Set variable 601 to variable 601 + 3
+                Repeat 9 times
+                  if variable 604 = 0
+                    If manual variable variable 601 = p
+                      Set variable 601 to variable 601 + 1
+                      If manual variable variable 601 = o
+                        Set variable 601 to variable 601 + 1
+                        If manual variable variable 601 = s
+                          Set variable 601 to variable 601 + 1
+                          If manual variable variable 601 = =
+                            Set variable 603 #(end of current item name)# to variable 601 - 4
+                            Set variable 604 to 1
+                    Else
+                      Set variable 601 to variable 601 + 1
+    Elif variable 604 = 1
+      Set variable 601 to variable 605
+      If variable 601 = variable 603
+      #Error 2
+      Else
+        Repeat 9 times
+          If variable 601 = variable 603
+            If variable 606 = variable 603 - variable 605
+              Set variable 604 to 2
+          If input variable variable 601 = variable variable 610
+            set variable 601 to variable 601 plus 1
+            set variable 610 to variable 610 plus 1
+            Set variable 606 to variable 606 plus 1
+    Elif variable 604 = 2
+  Else
+      Set variable 601 to variable 601 + 1

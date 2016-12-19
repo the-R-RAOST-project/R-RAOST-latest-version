@@ -28,6 +28,19 @@ Forever
                             Set variable 604 to 1
                     Else
                       Set variable 601 to variable 601 + 1
+                Repeat 9 times
+                  if variable 607 #(pos protector)# = 0
+                    If manual variable variable 601 = p
+                      Set variable 601 to variable 601 + 1
+                      If manual variable variable 601 = a
+                        Set variable 601 to variable 601 + 1
+                        If manual variable variable 601 = k
+                          Set variable 601 to variable 601 + 1
+                          If manual variable variable 601 = =
+                            Set variable 608 #(end of current item's position)# to variable 601 - 4
+                            Set variable 607 to 1
+                    Else
+                      Set variable 601 to variable 601 + 1
     Elif variable 604 = 1
       Set variable 601 to variable 605
       If variable 601 = variable 603
@@ -37,10 +50,31 @@ Forever
           If variable 601 = variable 603
             If variable 606 = variable 603 - variable 605
               Set variable 604 to 2
-          If input variable variable 601 = variable variable 610
+          If variable variable 601 = variable variable 610
             set variable 601 to variable 601 plus 1
             set variable 610 to variable 610 plus 1
             Set variable 606 to variable 606 plus 1
     Elif variable 604 = 2
+      Set variable 601 to variable 603 + 4
+      If variable 601 = variable 608
+      #Error 2
+      Else
+        Repeat 9 times
+          If variable 601 = variable 603 + 4
+            If variable 606 = variable 608 - variable 603 - 4
+              Set variable 604 to 3
+          If variable variable 601 = variable variable 620
+            set variable 601 to variable 601 plus 1
+            set variable 620 to variable 620 plus 1
+            Set variable 606 to variable 606 plus 1
+    elif varible 604 = 3
+    repeat 999 times
+      if variable 650 = 0
+        set variable 606 to 0
+        set variable 601 to variable 601 - 1
+        if manual variable 601 = new line
+          set variable 606 to variable 606 + 1
+          if variable 606 = 2
+            set variable 650 to 601
   Else
       Set variable 601 to variable 601 + 1

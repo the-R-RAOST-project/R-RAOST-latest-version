@@ -7,7 +7,15 @@ Forever
       If variable variable 200 = newline
         Set variable 200 to 201
         If variable 201 = /
-          Search /C#(commands)#/ for KBL
+          set variable 621 to /
+          set variable 622 to c
+          set variable 623 to /
+          set variable 610 to 611
+          set variable 200 to 201
+          repeat 9 times
+            set variable variable 610 to variable variable 200
+            set variable 610 to varible 610 + 1
+            set veriable 200 to verible 200 + 1
         Elif variable 201 = t
           #Some sort of talk mechanism (I Don’t Know What)
         Elif variable 201 = *

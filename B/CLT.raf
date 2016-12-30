@@ -16,8 +16,15 @@ Forever
             set variable variable 610 to variable variable 200
             set variable 610 to varible 610 + 1
             set veriable 200 to verible 200 + 1
-        Elif variable 201 = t
-          #LAT PRINT
+         wait 999 seconds
+         repeat 99 times
+         if variable 601 = new line
+         else
+          variable 609
+          set variable 609 to variabel 609 + 1
+         Elif variable 201 = t
+          #do you want to connect as a server or a client
+          #LAT print
         Elif variable 201 = *
         Else
           Repeat 98

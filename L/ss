@@ -6,40 +6,39 @@ Forever
     set variable 604 to 0
 	If variable 600 = 2
 		If manual variable variable 601 = new line
+			Set variable 601 to variable 601 + 1
+			If manual variable variable 601 = r
 				Set variable 601 to variable 601 + 1
-				If manual variable variable 601 = r
-				Set variable 601 to variable 601 + 1
-							If manual variable variable 601 = f
+				If manual variable variable 601 = f
+					Set variable 601 to variable 601 + 1
+					If manual variable variable 601 = s
+						#find file information areas
+						Set variable 605 #(start of current item name)# to variable 601 + 2
+						Set variable 601 to variable 601 + 3
+						Repeat 9 times
+							If manual variable variable 601 = p
 								Set variable 601 to variable 601 + 1
-								If manual variable variable 601 = s
-									#find file information areas
-									Set variable 605 #(start of current item name)# to variable 601 + 2
-									Set variable 601 to variable 601 + 3
-									Repeat 9 times
-										if variable 604 = 0
-											If manual variable variable 601 = p
-												Set variable 601 to variable 601 + 1
-												If manual variable variable 601 = o
-													Set variable 601 to variable 601 + 1
-													If manual variable variable 601 = s
-														Set variable 601 to variable 601 + 1
-														If manual variable variable 601 = =
-															Set variable 603 #(end of current item name)# to variable 601 - 4
-															Set variable 600 to 3
-											Else
-												Set variable 601 to variable 601 + 1
+								If manual variable variable 601 = o
+									Set variable 601 to variable 601 + 1
+									If manual variable variable 601 = s
+										Set variable 601 to variable 601 + 1
+										If manual variable variable 601 = =
+											Set variable 603 #(end of current item name)# to variable 601 - 4
+											Set variable 600 to 3
+							Else
+								Set variable 601 to variable 601 + 1
 		else
 			set variable 601 to variable 601 + 1
 	if variable 600 = 3
-				If manual variable variable 601 = p
-        	Set variable 601 to variable 601 + 1
-          If manual variable variable 601 = a
-						Set variable 601 to variable 601 + 1
-						If manual variable variable 601 = k
- 	          	Set variable 601 to variable 601 + 1
-              If manual variable variable 601 = =
- 	             Set variable 608 #(end of current item's position)# to variable 601 - 4
-               Set variable 600 to 4
+		If manual variable variable 601 = p
+    	Set variable 601 to variable 601 + 1
+      If manual variable variable 601 = a
+				Set variable 601 to variable 601 + 1
+				If manual variable variable 601 = k
+ 	      	Set variable 601 to variable 601 + 1
+          If manual variable variable 601 = =
+ 	        	Set variable 608 #(end of current item's position)# to variable 601 - 4
+          	Set variable 600 to 4
         Else
         	Set variable 601 to variable 601 + 1
 	if variable 600 = 4

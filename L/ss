@@ -76,3 +76,4 @@ Forever
         if manual variable 601 = new line
           set variable 606 to variable 606 + 1
           if variable 606 = 2
+					set variable 650 to variable 601

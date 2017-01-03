@@ -77,3 +77,9 @@ Forever
           set variable 606 to variable 606 + 1
           if variable 606 = 2
 					set variable 650 to variable 601
+New line
+Rfs
+n=ss#(Install Disk One Script)#
+pos=/L/
+pak=ros2/10
+New line

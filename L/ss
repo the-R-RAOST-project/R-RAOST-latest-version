@@ -8,7 +8,7 @@ Forever
 		If manual variable variable 601 = new line
 				Set variable 601 to variable 601 + 1
 				If manual variable variable 601 = r
-					Set variable 601 to variable 601 + 1
+				Set variable 601 to variable 601 + 1
 							If manual variable variable 601 = f
 								Set variable 601 to variable 601 + 1
 								If manual variable variable 601 = s

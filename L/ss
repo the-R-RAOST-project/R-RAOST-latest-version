@@ -28,7 +28,6 @@ Forever
 															Set variable 600 to 3
 											Else
 												Set variable 601 to variable 601 + 1
-												
 		else
 			set variable 601 to variable 601 + 1
 	if variable 600 = 3

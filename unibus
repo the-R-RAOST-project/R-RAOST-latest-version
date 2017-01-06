@@ -1,0 +1,189 @@
+when started
+set variable 1 to 1
+set output 2 #(printer)# to w
+wait 1 second
+set output 2 to a
+wait 1 second
+set output 2 to i
+wait 1 second
+set output 2 to t
+set output 1 #(Storage input)# to 2
+forever
+	if variable 1 #(OS state)# = 1
+		if input 1 #(storage output)# = e
+		  #load boot programs
+		  set variable 2 #(current boot program to load)# to 100
+		  repeat 99 times
+			variable variable 2
+			add 1 to variable 2
+		  #welcome to R-ROAST OS
+		  set output 2 to h
+		  wait 1 second
+		  set output 2 to i
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to a
+		  wait 1 second
+		  set output 2 to n
+		  wait 1 second
+		  set output 2 to d
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to w
+		  wait 1 second
+		  set output 2 to e
+		  wait 1 second
+		  set output 2 to l
+		  wait 1 second
+		  set output 2 to l
+		  wait 1 second
+		  set output 2 to c
+		  wait 1 second
+		  set output 2 to o
+		  wait 1 second
+		  set output 2 to m
+		  wait 1 second
+		  set output 2 to e
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to t
+		  wait 1 second
+		  set output 2 to o
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to r
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to r
+		  wait 1 second
+		  set output 2 to a
+		  wait 1 second
+		  set output 2 to o
+		  wait 1 second
+		  set output 2 to s
+		  wait 1 second
+		  set output 2 to t
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to 0
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to 1
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to p
+		  wait 1 second
+		  set output 2 to l
+		  wait 1 second
+		  set output 2 to e
+		  wait 1 second
+		  set output 2 to a
+		  wait 1 second
+		  set output 2 to s
+		  wait 1 second
+		  set output 2 to e
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to t
+		  wait 1 second
+		  set output 2 to y
+		  wait 1 second
+		  set output 2 to p
+		  wait 1 second
+		  set output 2 to e
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to y
+		  wait 1 second
+		  set output 2 to o
+		  wait 1 second
+		  set output 2 to u
+		  wait 1 second
+		  set output 2 to r
+		  wait 1 second
+		  set output 2 to -
+		  wait 1 second
+		  set output 2 to p
+		  wait 1 second
+		  set output 2 to a
+		  wait 1 second
+		  set output 2 to s
+		  wait 1 second
+		  set output 2 to s
+		  set variable 1 to 2
+		elif output 1 > 100
+			  Error 1
+		Else
+		  #load boat programs to memory
+			  set variable 100 + output 1 to input 1
+			  set output 1 to output 1 + 1
+	if variable 1 = 2
+		#LIS
+		set variable 3 #(keyboard state)# to 1
+		set variable 500 to 501
+		Wait 30 seconds
+		Set variable 200 to 201
+		repeat 9 times
+			if input variable variable 500 = variable variable 200
+				set variable 500 to variable 500 plus 1
+				set variable 201 to variable 201 plus 1
+				Set variable 511 to variable 511 plus 1
+			Else
+        Set variable 511 to 0
+         Set variable 1 to 2
+				Print login failed
+			If variable 511 = 9
+        Set variable 3 to 1
+        set variable 1 to 3
+	  If variable 1 = 3
+    If variable 3 = 2
+		#CLT
+      If variable variable 200 = newline
+        Set variable 200 to 201
+        If variable 201 = /
+          set variable 621 to /
+          set variable 622 to c
+          set variable 623 to /
+          set variable 610 to 611
+          set variable 200 to 201
+          repeat 9 times
+            set variable variable 610 to variable variable 200
+            set variable 610 to varible 610 + 1
+            set veriable 200 to verible 200 + 1
+         wait 999 seconds
+         repeat 99 times
+         if variable 601 = new line
+         else
+          variable 609
+          set variable 609 to variabel 609 + 1
+         Elif variable 201 = t
+          #do you want to connect as a server or a client
+          #LAT print
+        Elif variable 201 = *
+        Else
+          Repeat 98
+            Variable variable 200
+            Set variable 200 to variable 200 + 1
+        Set variable 3 to 1
+      Else
+        Wait 1 second
+    Else
+      Wait 2 seconds
+  else 
+   Wait 5 seconds
+new line
+Rfs
+n=unibus#(UNIted Boot Up Script)#
+pos=/B/
+pak=ros3/10
+New line

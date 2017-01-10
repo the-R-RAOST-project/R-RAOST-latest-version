@@ -4,81 +4,82 @@ Forever
     Set variable 601 #(current search read)# to 1
     Set variable 600 to 2 #(on)#
     set variable 604 to 0
-	If variable 600 = 2
-		If manual variable variable 601 = new line
-			Set variable 601 to variable 601 + 1
-			If manual variable variable 601 = r
+	if variabel 621 = /
+		If variable 600 = 2
+			If manual variable variable 601 = new line
 				Set variable 601 to variable 601 + 1
-				If manual variable variable 601 = f
+				If manual variable variable 601 = r
 					Set variable 601 to variable 601 + 1
-					If manual variable variable 601 = s
-						#find file information areas
-						Set variable 605 #(start of current item name)# to variable 601 + 2
-						Set variable 601 to variable 601 + 3
-						Repeat 9 times
-							If manual variable variable 601 = p
-								Set variable 601 to variable 601 + 1
-								If manual variable variable 601 = o
+					If manual variable variable 601 = f
+						Set variable 601 to variable 601 + 1
+						If manual variable variable 601 = s
+							#find file information areas
+							Set variable 605 #(start of current item name)# to variable 601 + 2
+							Set variable 601 to variable 601 + 3
+							Repeat 9 times
+								If manual variable variable 601 = p
 									Set variable 601 to variable 601 + 1
-									If manual variable variable 601 = s
+									If manual variable variable 601 = o
 										Set variable 601 to variable 601 + 1
-										If manual variable variable 601 = =
-											Set variable 603 #(end of current item name)# to variable 601 - 4
-											Set variable 600 to 3
-							Else
-								Set variable 601 to variable 601 + 1
-		else
-			set variable 601 to variable 601 + 1
-	if variable 600 = 3
-		If manual variable variable 601 = p
-    	Set variable 601 to variable 601 + 1
-      If manual variable variable 601 = a
+										If manual variable variable 601 = s
+											Set variable 601 to variable 601 + 1
+											If manual variable variable 601 = =
+												Set variable 603 #(end of current item name)# to variable 601 - 4
+												Set variable 600 to 3
+								Else
+									Set variable 601 to variable 601 + 1
+			else
+				set variable 601 to variable 601 + 1
+		if variable 600 = 3
+			If manual variable variable 601 = p
 				Set variable 601 to variable 601 + 1
-				If manual variable variable 601 = k
- 	      	Set variable 601 to variable 601 + 1
-          If manual variable variable 601 = =
- 	        	Set variable 608 #(end of current item's position)# to variable 601 - 4
-          	Set variable 600 to 4
-        Else
-        	Set variable 601 to variable 601 + 1
-	if variable 600 = 4
-      Set variable 601 to variable 605
-      If variable 601 = variable 603
-      #Error 2
-      Else
-        Repeat 9 times
-          If variable 601 = variable 603
-            If variable 606 = variable 603 - variable 605
-              Set variable 600 to 5
-          If variable variable 601 = variable variable 610
-            set variable 601 to variable 601 plus 1
-            set variable 610 to variable 610 plus 1
-            Set variable 606 to variable 606 plus 1
-	if variable 600 = 5
-      Set variable 601 to variable 603 + 4
-      If variable 601 = variable 608
-      #Error 2
-      Else
-        Repeat 9 times
-          If variable 601 = variable 603 + 4
-            If variable 606 = variable 608 - variable 603 - 4
-              Set variable 604 to 3
-          If variable variable 601 = variable variable 620
-            set variable 601 to variable 601 plus 1
-            set variable 620 to variable 620 plus 1
-            Set variable 606 to variable 606 plus 1
-	if varible 600 = 6
-    repeat 999 times
-      if variable 650 = 0
-        set variable 606 to 0
-        set variable 601 to variable 601 - 1
-        if manual variable 601 = new line
-          set variable 606 to variable 606 + 1
-          if variable 606 = 2
-					set variable 650 to variable 601
+				If manual variable variable 601 = a
+					Set variable 601 to variable 601 + 1
+					If manual variable variable 601 = k
+						Set variable 601 to variable 601 + 1
+						If manual variable variable 601 = =
+							Set variable 608 #(end of current item's position)# to variable 601 - 4
+							Set variable 600 to 4
+					Else
+						Set variable 601 to variable 601 + 1
+		if variable 600 = 4
+				Set variable 601 to variable 605
+				If variable 601 = variable 603
+				#Error 2
+				Else
+					Repeat 9 times
+						If variable 601 = variable 603
+							If variable 606 = variable 603 - variable 605
+								Set variable 600 to 5
+						If variable variable 601 = variable variable 610
+							set variable 601 to variable 601 plus 1
+							set variable 610 to variable 610 plus 1
+							Set variable 606 to variable 606 plus 1
+		if variable 600 = 5
+				Set variable 601 to variable 603 + 4
+				If variable 601 = variable 608
+				#Error 2
+				Else
+					Repeat 9 times
+						If variable 601 = variable 603 + 4
+							If variable 606 = variable 608 - variable 603 - 4
+								Set variable 604 to 3
+						If variable variable 601 = variable variable 620
+							set variable 601 to variable 601 plus 1
+							set variable 620 to variable 620 plus 1
+							Set variable 606 to variable 606 plus 1
+		if varible 600 = 6
+			repeat 999 times
+				if variable 650 = 0
+					set variable 606 to 0
+					set variable 601 to variable 601 - 1
+					if manual variable 601 = new line
+						set variable 606 to variable 606 + 1
+						if variable 606 = 2
+						set variable 650 to variable 601
 New line
 Rfs
-n=ss#(Install Disk One Script)#
+n=ss#(Search Script)#
 pos=/L/
-pak=ros2/10
+pak=ros3/10
 New line

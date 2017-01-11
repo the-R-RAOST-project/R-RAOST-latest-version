@@ -8,17 +8,17 @@ forever
 		Wait 30 seconds
 	If variable 1002 = 1
 		If variable variable 1003 = 0
-	Set variable 1001 to variable 1003
-Wait 5 second
-Else
-	Set variable 1003 to variable 1003 + 100
+			Set variable 1001 to variable 1003
+			Wait 5 second
+		Else
+			Set variable 1003 to variable 1003 + 100
 	If variable 1002 = 2
-Set output 1 to variable 1004
-If input 1 = 0
-	Set variable 1001 to variable 1000
-Wait 5 second
-Else
-	Set variable 1004 to variable 1004 + 100
+		Set output 1 to variable 1004
+		If input 1 = 0
+			Set variable 1001 to variable 1000
+			Wait 5 second
+		Else
+			Set variable 1004 to variable 1004 + 100
 New line
 Rfs
 n=ohbsma#(One Hundred Block Storage and Memory Allocator)#

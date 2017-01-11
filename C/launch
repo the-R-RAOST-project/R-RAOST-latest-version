@@ -1,0 +1,15 @@
+set variable 621 to /
+set variable 622 to S
+set variable 623 to /
+set variable 610 to 611
+set variable 200 to 201
+repeat 9 times
+	set variable variable 610 to variable variable 200
+  set variable 610 to varible 610 + 1
+  set veriable 200 to verible 200 + 1
+wait 999 seconds
+repeat 99 times
+	if variable 601 = new line
+else
+	variable 609
+	set variable 609 to variabel 609 + 1

@@ -89,6 +89,7 @@ If input 3 = i
 			If variable 1001 = w
 				Wait 1 second
 			Elif variable 1005 = -
+				set variable variable 1001 to 1
 				Set variable 1005 to variable 1001
 				Set variable 1001 to w
 			Else 

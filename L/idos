@@ -85,24 +85,24 @@ If input 3 = i
 		Set variable 1002 to 2
 		Wait 31 seconds
 		#aquire location to place install code
-		while variable 1005 = -
-			If variable 1001 = w
+		while variable 20 = -
+			If variable 11 = w
 				Wait 1 second
-			Elif variable 1005 = -
+			Elif variable 20 = -
 				set variable variable 1001 to 1
-				Set variable 1005 to variable 1001
-				Set variable 1001 to w
+				Set variable 20 to variable 11
+				Set variable 11 to w
 			Else 
 				#error
 		#place install code in install code location
 		Repeat 100 times
 			Set output 3 to output 3 + 1
-			Set variable variable 1005 to input 3
-			Set Variable 1005 to variable 1005 - 100
+			Set variable variable 20 to input 3
+			Set Variable 15 to variable 15 - 100
 		#run install code
 		Repeat 100 times
-			Variable variable 1005
-			Set variable 1005 to variable 1005 + 1
+			Variable variable 15
+			Set variable 15 to variable 15 + 1
 New line
 Rfs
 n=idos#(Install Disk One Script)#

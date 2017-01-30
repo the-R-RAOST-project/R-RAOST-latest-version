@@ -99,8 +99,9 @@ If input 3 = i
 		Repeat 100 times
 			Set output 3 to output 3 + 1
 			Set variable variable 20 to input 3
-			Set Variable 15 to variable 15 - 100
+			Set Variable 20 to variable 20 + 1
 		#run install code
+		set variable 20 to variable 20 - 100
 		Repeat 100 times
 			Variable variable 15
 			Set variable 15 to variable 15 + 1

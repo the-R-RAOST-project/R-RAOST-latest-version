@@ -92,6 +92,7 @@ If input 3 = i
 				set variable variable 1001 to 1
 				Set variable 20 to variable 11
 				Set variable 11 to w
+				set variable 12 to 0
 			Else 
 				#error
 		#place install code in install code location

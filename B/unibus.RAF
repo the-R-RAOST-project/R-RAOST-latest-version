@@ -2,6 +2,9 @@
 new line
 when started
 set variable 1 to 1
+set variable 21 to 1
+set variable 22 to 1
+set variable 31 to 1
 set output 2 #(printer)# to w
 wait 1 second
 set output 2 to a
@@ -141,8 +144,8 @@ forever
 				set variable 201 to variable 201 plus 1
 				Set variable 511 to variable 511 plus 1
 			Else
-        Set variable 511 to 0
-         Set variable 1 to 2
+				Set variable 511 to 0
+				Set variable 1 to 2
 				Print login failed
 			If variable 511 = 9
         Set variable 3 to 1
@@ -150,9 +153,9 @@ forever
 	  If variable 1 = 3
     If variable 3 = 2
 		#CLT
-      If variable variable 200 = newline
-        Set variable 200 to 201
-        If variable 201 = /
+		If variable variable 200 = newline
+			Set variable 200 to 201
+			If variable 201 = /
           set variable 621 to /
           set variable 622 to c
           set variable 623 to /

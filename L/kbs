@@ -2,12 +2,11 @@ new line
 	forever
 	if variable 3 #(keyboard state)# = 0
 		Wait 1 second
-		elif variable 3 = 1
-			wait 
-			set variable 200 #(keyboard current read/write)# to 201
-			repeat 98
-				set variable variable 200 to 0 #(delete keyboard log)#
-				set variable 200 to variable 200 + 1
+	elif variable 3 = 1 
+		set variable 200 #(keyboard current read/write)# to 201
+		repeat 98
+			set variable variable 200 to 0 #(delete keyboard log)#
+			set variable 200 to variable 200 + 1
 		wait 1/10 seconds
 		Set variable 3 to 2
 	Elif variable 3 = 2

@@ -2,6 +2,7 @@
 new line
 when started
 set variable 1 to 1
+set variable 22 to 1
 set variable 21 to 1
 set output 2 #(printer)# to w
 wait 1 second
@@ -14,6 +15,8 @@ set output 1 #(Storage input)# to 2
 forever
 	if variable 1 #(OS state)# = 1
 		if input 1 #(storage output)# = e
+			#unlock disk one
+			set variable 22 to variable 22 - 1
 			#load boot programs
 			set variable 21 to variable 21 - 1
 			set variable 2 #(current boot program to load)# to 100
@@ -124,6 +127,8 @@ forever
 			set output 2 to s
 			wait 1 second
 			set output 2 to s
+			#unlock print
+			set variable 21 to variable 21 - 1
 			set variable 1 to 2
 		elif output 1 > 100
 			Error 1

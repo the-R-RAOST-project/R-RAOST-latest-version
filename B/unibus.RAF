@@ -81,7 +81,7 @@ forever
 			wait 1 second
 			set output 2 to -
 			wait 1 second
-			set output 2 to 1
+			set output 2 to 3
 			wait 1 second
 			set output 2 to -
 			wait 1 second

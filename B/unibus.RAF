@@ -18,7 +18,6 @@ forever
 			#unlock disk one
 			set variable 22 to variable 22 - 1
 			#load boot programs
-			set variable 21 to variable 21 - 1
 			set variable 2 #(current boot program to load)# to 100
 			repeat 99 times
 				variable variable 2

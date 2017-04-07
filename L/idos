@@ -2,104 +2,109 @@ New line
 When started
 Set output 3 to 1
 If input 3 = i
-Wait 250 seconds
-If variable 1 = 3
-Set variable 3 to 1
-set output 2 to d
-wait 1 second
-set output 2 to o
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to y
-wait 1 second
-set output 2 to o
-wait 1 second
-set output 2 to u
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to w
-wait 1 second
-set output 2 to a
-wait 1 second
-set output 2 to n
-wait 1 second
-set output 2 to t
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to t
-wait 1 second
-set output 2 to o
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to i
-wait 1 second
-set output 2 to n
-wait 1 second
-set output 2 to s
-wait 1 second
-set output 2 to t
-wait 1 second
-set output 2 to a
-wait 1 second
-set output 2 to l
-wait 1 second
-set output 2 to l
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to o
-wait 1 second
-set output 2 to n
-wait 1 second
-set output 2 to e
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to d
-wait 1 second
-set output 2 to i
-wait 1 second
-set output 2 to s
-wait 1 second
-set output 2 to c
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to y
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to o
-wait 1 second
-set output 2 to r
-wait 1 second
-set output 2 to -
-wait 1 second
-set output 2 to n
-If variable 201 = y
-Set variable 1002 to 2
-Wait 31 seconds
-Repeat 999 times
-	If variable 1001 = w
-		Wait 1 second
-	Elif variable 1005 = -
-		Set variable 1005 to variable 1001
-		Set variable 1001 to w
-	Else 
-		Wait 1 second
-Repeat 100 times
-	Set output 3 to 2
-		Set variable variable 1005 to input 3
-	Set Variable 1005 to variable 1005 - 100
-Repeat 100 times
-			Variable variable 1005
-			Set variable 1005 to variable 1005 + 1
-
-
+	While variable 1 < 3
+		wait 1 second
+	If variable 1 = 3
+		Set variable 3 to 1
+		set output 2 to d
+		wait 1 second
+		set output 2 to o
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to y
+		wait 1 second
+		set output 2 to o
+		wait 1 second
+		set output 2 to u
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to w
+		wait 1 second
+		set output 2 to a
+		wait 1 second
+		set output 2 to n
+		wait 1 second
+		set output 2 to t
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to t
+		wait 1 second
+		set output 2 to o
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to i
+		wait 1 second
+		set output 2 to n
+		wait 1 second
+		set output 2 to s
+		wait 1 second
+		set output 2 to t
+		wait 1 second
+		set output 2 to a
+		wait 1 second
+		set output 2 to l
+		wait 1 second
+		set output 2 to l
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to o
+		wait 1 second
+		set output 2 to n
+		wait 1 second
+		set output 2 to e
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to d
+		wait 1 second
+		set output 2 to i
+		wait 1 second
+		set output 2 to s
+		wait 1 second
+		set output 2 to c
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to y
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to o
+		wait 1 second
+		set output 2 to r
+		wait 1 second
+		set output 2 to -
+		wait 1 second
+		set output 2 to n
+		If variable 201 = y
+		Set variable 1002 to 2
+		Wait 31 seconds
+		#aquire location to place install code
+		while variable 20 = -
+			If variable 11 = w
+				Wait 1 second
+			Elif variable 20 = -
+				set variable variable 1001 to 1
+				Set variable 20 to variable 11
+				Set variable 11 to w
+				set variable 10 to 0
+			Else 
+				#error
+		#place install code in install code location
+		Repeat 100 times
+			Set output 3 to output 3 + 1
+			Set variable variable 20 to input 3
+			Set Variable 20 to variable 20 + 1
+		#run install code
+		set variable 20 to variable 20 - 100
+		Repeat 100 times
+			Variable variable 15
+			Set variable 15 to variable 15 + 1
 New line
 Rfs
 n=idos#(Install Disk One Script)#

@@ -16,7 +16,7 @@ Forever
 							#find file information areas
 							Set variable 605 #(start of current item name)# to variable 601 + 2
 							Set variable 601 to variable 601 + 3
-							Repeat 9 times
+							While variable 600 = 2
 								If manual variable variable 601 = p
 									Set variable 601 to variable 601 + 1
 									If manual variable variable 601 = o
@@ -31,6 +31,7 @@ Forever
 			else
 				set variable 601 to variable 601 + 1
 		if variable 600 = 3
+		#find end of curent items position
 			If manual variable variable 601 = p
 				Set variable 601 to variable 601 + 1
 				If manual variable variable 601 = a

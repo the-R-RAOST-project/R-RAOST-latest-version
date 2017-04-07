@@ -165,7 +165,7 @@ forever
 					set variable 623 to /
 					set variable 610 to 611
 					set variable 200 to 201
-					repeat 9 times
+					while (not ((variable (variable (200))) = (-))) #(this line was written with brackets)#
 						set variable variable 610 to variable variable 200
 						set variable 610 to varible 610 + 1
 						set veriable 200 to verible 200 + 1

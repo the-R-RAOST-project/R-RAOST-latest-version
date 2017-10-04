@@ -1,0 +1,30 @@
+when started(
+wait [1] seconds
+#lock disk read
+set (output[1]) to [1]
+
+if (#(mode)#=[1])
+	if ((input[1])=[new line])
+		#detect file
+		set (output[1]) to ((output[1])+[1])
+		if ((input[1])=[[]
+			set (output[1]) to ((output[1])+[1])
+			if ((input[1])=[r]
+				set (output[1]) to ((output[1])+[1])
+				if ((input[1])=[f]
+					set (output[1]) to ((output[1])+[1])
+					if ((input[1])=[s]
+						set (output[1]) to ((output[1])+[1])
+						if ((input[1])=[]]
+							set #(mode)# to [2]
+	else
+		set (output[1]) to ((output[1])+[1])
+
+#add rest here
+
+new line
+[rfs]
+[nam=sds]
+[pos=/L/]
+[pak=ros2/0]
+new line

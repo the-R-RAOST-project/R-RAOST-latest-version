@@ -1,7 +1,7 @@
 0
 new line
 when started
-set variable 1 to 1
+set (variable (1)) to (1)
 set variable 22 to 1
 set variable 21 to 1
 set output 2 #(printer)# to w
@@ -188,4 +188,4 @@ Rfs
 n=unibus#(UNIted Boot Up Script)#
 pos=/B/
 pak=ros3/10
-New line
+new line
